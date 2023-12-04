@@ -1,8 +1,8 @@
 import sha1 from 'sha1';
-import { Request } from 'express';
+// import { Request } from 'express';
 import mongoDBCore from 'mongodb/lib/core';
-import dbClient from './db';
-import redisClient from './redis';
+import { dbClient } from './db';
+import { redisClient } from './redis';
 
 // Fetches the user from the Authorization header in the given request object.
 export const getUserFromAuthorization = async (req) => {

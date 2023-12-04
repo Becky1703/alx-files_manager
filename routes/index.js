@@ -1,4 +1,4 @@
-import { Express } from 'express';
+// import { Express } from 'express';
 import AppController from '../controllers/AppController';
 import AuthController from '../controllers/AuthController';
 import UsersController from '../controllers/UsersController';
