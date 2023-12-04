@@ -10,7 +10,6 @@ export class APIError extends Error {
   }
 }
 
-
 // Applies Basic authentication to a route.
 export const errorResponse = (err, req, res, next) => {
   const defaultMsg = `Failed to process ${req.url}`;
